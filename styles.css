@@ -1,0 +1,118 @@
+:root {
+    --red: #EE1B24;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: SDDystopianDemo;
+    src: url(./assets/fonts/Sddystopian.otf);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: SDDystopianDemo;
+}
+
+h1 {
+    font-size: 128px;
+    color: var(--red);
+    -webkit-text-stroke: 4px #333333;
+}
+
+h2 {
+    font-size: 64px;
+    -webkit-text-stroke: 4px #333333;
+}
+
+h4 {
+    font-size: 36px;
+    color: var(--red);
+}
+
+.bigp {
+    font-size: 20px;
+}
+
+header .container-fluid {
+
+    background-image: url(./assets/Rectangle-3.svg );
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+
+
+    & .logo {
+        margin: 50px;
+        position: relative;
+        text-align: left;
+    }
+
+    & .logo::after {
+        content: " ";
+        height: 2px;
+        width: 80vw;
+        background: black;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0
+    }
+
+    & .heading {
+        margin-top: 25vh;
+        margin-left: 6vw;
+    }
+
+    .heading-img {
+        height: 0px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 53vh;
+
+        & img.risingfreedom {
+            height: 87vh;
+            margin-top: -16vh;
+            margin-right: -6vh;
+        }
+    }
+
+}
+
+main {
+    background-image: url(./assets/Rectangle-4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -14%;
+
+    /* GUNDAM INFO START */
+    & .sdgundaminfoimg {
+        margin-left: 3vh;
+        margin-top: -32vh;
+
+        & img.exia {
+            height: 87vh;
+        }
+    }
+
+    & .paragraph {
+        margin-top: 11vh;
+
+        & a {
+            color: black;
+        }
+    }
+
+    /* GUNDAM INFO END */
+
+    /* MODEL */
+    .model h4 {
+        margin-left: 12vh;
+        margin-top: 8vh;
+    }
+}
