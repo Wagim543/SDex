@@ -109,10 +109,44 @@ main {
     }
 
     /* GUNDAM INFO END */
-
-    /* MODEL */
-    .model h4 {
-        margin-left: 12vh;
-        margin-top: 8vh;
+    /* H4 HR */
+    .modelh4 {
+        text-align: end;
+        margin: 10vh 0vh;
+        position: relative;
     }
+
+    .modelh4::after {
+        content: " ";
+        height: 2px;
+        width: 45vw;
+        background: black;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 116%;
+    }
+
+    /* BACKGROUND IMG */
+    & .imagerow {
+        position: relative;
+
+        & img.aerial4 {
+            position: absolute;
+            z-index: -1;
+            filter: blur(11px);
+            height: 2070px;
+        }
+    }
+
+    /* BACKGROUND IMG END */
+
+    /* MODEL SYART */
+    & .justify-content-center {
+        padding: 2vh;
+    }
+    
+    
+    
+
 }
