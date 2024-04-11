@@ -103,7 +103,7 @@ main {
     /* GUNDAM INFO START */
     & .sdgundaminfoimg {
         margin-left: 3vh;
-        margin-top: -32vh;
+        margin-top: -30vh;
 
         & img.exia {
             height: 85vh;
