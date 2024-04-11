@@ -1,5 +1,9 @@
 :root {
     --red: #EE1B24;
+    --black: #000000;
+    --darkgrey:#919191;
+    --lightgrey:#d5d5d5;
+
 }
 
 * {
@@ -9,6 +13,8 @@
 @font-face {
     font-family: SDDystopianDemo;
     src: url(./assets/fonts/Sddystopian.otf);
+    font-family: Amuro;
+    src: url(./assets/fonts/Amuro.ttf);
 }
 
 h1,
@@ -108,7 +114,7 @@ main {
         margin-top: 11vh;
 
         & a {
-            color: black;
+            color: var(--black);
         }
     }
 
@@ -149,14 +155,78 @@ main {
     & .justify-content-center {
         padding: 2vh;
     }
+        /* MODALS START*/
+        p.header2 {
+            font-size: 20px;
+            font-family: SDDystopianDemo;
+            color:var(--darkgrey);
+        }
+        p.headerp {
+            font-size: 20px;
+        }
+        p.header1 {
+            font-size: 48px;
+            font-family: Amuro;
+            color: var(--red);
+        }
+        .modal-body {
+            position: relative;
+            flex: 1 1 auto;
+            padding: 1rem;
+            width: 1000px;
+        }
+        img.modalpicture {
+            height: 470px;
+        }
+        .modalpicture {
+            display: flex;
+            justify-content: center;
+        }
+        .modal-content {
+            width: 1000px;
+        }
+        .modal-dialog.modal-dialog-centered {
+            /* margin: 28px 53vh; */
+            display: flex;
+            justify-content: center;
+        }
+        a.additional_info_link {
+            color: var(--black);
+        }
+        /* MODALS END */
 
     /* MODEL END */
     /* COLLECT THEM ALL FOOTER START */
     hr:not([size]) {
         height: 2px;
-        background-color: black;
+        background-color: var(--black);
         width: -1vh;
     }
-
-
+    .collect {
+        background-color: var(--black);
+        width: 1vw;
+    }
+    .h3footer {
+        color: var(--red);
+        margin: 0px;
+        padding: 0px;
+        align-self:center ;
+    }
+    .collect {
+        background-color: var(--black);
+        width: 720px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        border-radius: 13px;
+    }
+    .col-12.footer {
+        display: flex;
+        justify-content: center;
+    }
+    .col-12.footer {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px 115px 0px;
+    }
 }
