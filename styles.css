@@ -153,7 +153,7 @@ main {
 
     /* MODEL SYART */
     & .justify-content-center {
-        padding: 2vh;
+        padding: 2;
     }
 
     /* MODALS START*/
@@ -246,7 +246,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 729px) {
     header .container-fluid {
         & .logo {
             display: block;
@@ -273,7 +273,7 @@ main {
             position: absolute !important;
             top: 230px !important;
             left: 228px !important;
-            height: 55vh !important;
+            height: 68vw !important;
             margin-top: 0vh !important;
             margin-right: 0vw !important;
         }
@@ -293,9 +293,9 @@ main {
     }
 
     img.exia {
-        height: 60vh !important;
+        height: 68vw !important;
         position: absolute !important;
-        top: -245px !important;
+        top: -199px !important;
         z-index: -1 !important;
         left: -2px !important;
         filter: opacity(0.2) !important;
@@ -326,6 +326,7 @@ main {
         color: var(--red);
         text-align: center;
     }
+
     img.aerial4 {
         filter: blur(4px) !important;
         height: 1000px !important;
@@ -334,29 +335,46 @@ main {
     .h3footer {
         font-size: 28px !important;
     }
+
     & .paragraph {
-        margin-top: -25vh !important;
+        margin-top: -25vw !important;
     }
+
     main {
-        background-position-y: 181px;
+        background-position-y: 270px;
     }
-    .collect {        
+
+    .collect {
         width: 335px !important;
         height: 50px !important;
     }
+
     p.header1 {
         font-size: 20px !important;
     }
+
     p.header2 {
         font-size: 16px !important;
     }
+
     p.headerp {
         font-size: 18px !important;
     }
+
     img.modalpicture {
         height: 260px !important;
     }
+
     .modal-body {
         width: 500px !important;
+    }
+
+    & .heading {
+        margin-top: 45vw !important;
+        margin-left: 6vw !important;
+    }
+    .modelh4 {   
+        margin-top: 20vw !important;
+        margin-bottom: 10vw !important;
     }
 }
