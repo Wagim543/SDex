@@ -246,37 +246,117 @@ main {
     }
 }
 
-@media only screen and (max-width: 360px) {
-    & .logo {
-        margin: 50px;
-        position: relative;
-        text-align: center;
-    }
+@media only screen and (max-width: 720px) {
+    header .container-fluid {
+        & .logo {
+            display: block;
+            text-align: center;
 
-    & .logo::after {
-        content: " ";
-        height: 2px;
-        width: 8vw;
-        background: black;
-        display: block;
-        position: absolute;
-        top: 50%;
-        right: 2px;
+            &::after {
+                width: 200px;
+            }
+
+            &::before {
+                content: " ";
+                display: block;
+                height: 2px;
+                width: 200px;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                background: var(--black);
+            }
+        }
+
+        img.risingfreedom {
+            width: 68vw !important;
+            position: absolute !important;
+            top: 230px !important;
+            left: 228px !important;
+            height: 55vh !important;
+            margin-top: 0vh !important;
+            margin-right: 0vw !important;
+        }
     }
 
     h2 {
-        font-size: 1rem;
-        -webkit-text-stroke: 1px #333333;
+        font-size: 30px !important;
+        margin: 0px !important;
+        -webkit-text-stroke: 1px #333333 !important;
     }
 
     h1 {
-        font-size: 2rem;
-        -webkit-text-stroke: 1px #333333;
+        font-size: 40px !important;
+        color: var(--red) !important;
+        -webkit-text-stroke: 1px #333333 !important;
+        margin-top: -14px !important;
     }
-    h3 {
-        font-size: 1rem;
+
+    img.exia {
+        height: 60vh !important;
+        position: absolute !important;
+        top: -245px !important;
+        z-index: -1 !important;
+        left: -2px !important;
+        filter: opacity(0.2) !important;
     }
+
+    .col-sm-4 {
+        position: relative !important;
+    }
+
+    .modelh4::after {
+        width: 230px !important;
+        left: 0 !important;
+    }
+
+    .modelh4::before {
+        content: " ";
+        height: 2px;
+        background: black;
+        display: block;
+        width: 230px;
+        position: absolute;
+        top: 50%;
+        right: 0%;
+    }
+
     h4 {
-        font-size: 1rem;
+        font-size: 25px;
+        color: var(--red);
+        text-align: center;
+    }
+    img.aerial4 {
+        filter: blur(4px) !important;
+        height: 1000px !important;
+    }
+
+    .h3footer {
+        font-size: 28px !important;
+    }
+    & .paragraph {
+        margin-top: -25vh !important;
+    }
+    main {
+        background-position-y: 181px;
+    }
+    .collect {        
+        width: 335px !important;
+        height: 50px !important;
+    }
+    p.header1 {
+        font-size: 20px !important;
+    }
+    p.header2 {
+        font-size: 16px !important;
+    }
+    p.headerp {
+        font-size: 18px !important;
+    }
+    img.modalpicture {
+        height: 260px !important;
+    }
+    .modal-body {
+        width: 500px !important;
     }
 }
