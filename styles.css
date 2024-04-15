@@ -359,7 +359,7 @@ main {
 
         & .paragraph {
             margin: 3vh 5vw;
-            height: 65vh;
+            height: 700px;
 
             .bigp {
                 font-size: 1.2rem;
@@ -419,7 +419,7 @@ main {
 }
 
 
-@media screen AND {}
+@media screen and (max-width:) {}
 
 /* @media screen and (max-width:1436px) {
     header {
