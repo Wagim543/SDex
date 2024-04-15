@@ -13,9 +13,13 @@
 @font-face {
     font-family: SDDystopianDemo;
     src: url(./assets/fonts/Sddystopian.otf);
+}
+
+@font-face {
     font-family: Amuro;
     src: url(./assets/fonts/Amuro.ttf);
 }
+
 
 h1,
 h2,
@@ -413,6 +417,9 @@ main {
         }
     }
 }
+
+
+@media screen AND {}
 
 /* @media screen and (max-width:1436px) {
     header {
