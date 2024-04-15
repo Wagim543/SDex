@@ -413,3 +413,203 @@ main {
         }
     }
 }
+
+@media screen and (max-width:1436px) {
+    header {
+        & .container-fluid {
+            & .heading {
+                margin-top: 13vh;
+                margin-left: 6vw;
+            }
+
+            & .logo::after {
+                width: 75vw;
+            }
+        }
+    }
+
+    main {
+        background-position-y: 61vh;
+
+        & img.modalpicture {
+            height: 35vw;
+        }
+
+        & .modelh4::after {
+            width: 65vw;
+        }
+
+        & img.exia {
+            height: 50vw;
+        }
+    }
+}
+
+@media screen and (max-width:1399px) {
+    main {
+        & .modelh4::after {
+            width: 55vw;
+        }
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    main {
+        & img.exia {
+            width: 40vw;
+        }
+    }
+}
+
+@media screen and (max-width: 1192px) {
+    main {
+        background-position-y: 55vh;
+
+        & .modelh4::after {
+            width: 45vw;
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    header {
+        & .container-fluid {
+            & .logo::after {
+                width: 70vw;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header {
+        & .container-fluid {
+            & .heading {
+                margin-top: 5vh;
+
+                & h1 {
+                    margin-top: -6vw;
+                }
+            }
+
+            & .logo::after {
+                width: 65vw;
+                z-index: 1;
+            }
+        }
+
+    }
+
+    main {
+        background-position-y: 51vh;
+
+        & .modelh4::after {
+            width: 38vw;
+        }
+
+        .modal-body {
+            width: 80vw;
+        }
+    }
+}
+
+@media screen and (max-width:848px) {
+    header {
+        & .container-fluid {
+            & .heading {
+
+                & h1 {
+                    margin-top: -4vw;
+                    font-size: 4rem;
+                    -webkit-text-stroke: 1px #333333;
+                }
+
+                h2 {
+                    font-size: 3rem;
+                }
+            }
+        }
+
+    }
+
+    main {
+        & .paragraph {
+            & .bigp {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:758px) {
+    header {
+        .container-fluid {
+            & .logo {
+                & img {
+                    width: 15vw;
+                    height: 9vh;
+                }
+            }
+        }
+    }
+
+    main {
+        & img.exia {
+            width: 100vw;
+            filter: opacity(0.2);
+            height: 65vh;
+        }
+
+        & .modelh4::after {
+            width: 25vw;
+        }
+
+        & .paragraph {
+            display: flex;
+            height: 75vh;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width:645px) {
+    header {
+        & .container-fluid {
+            & .logo::after {
+                width: 60vw;
+                z-index: 1;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:610px) {
+    header {
+        & .container-fluid {
+            & .headingimg {
+                position: absolute;
+                right: 0vw;
+                height: 32vh;
+                top: 5vh;
+            }
+
+            & .heading {
+                margin-top: 0vh;
+
+                & h1 {
+                    margin-top: -6vw;
+                    font-size: 3.4rem;
+
+                }
+            }
+        }
+    }
+
+    main {
+        & .modelh4::after {
+            width: 34vw;
+        }
+    }
+}
