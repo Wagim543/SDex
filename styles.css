@@ -326,13 +326,22 @@ main {
     }
 
     & main {
-        background-position-y: 35vh;
-        
+        background-position-y: 56vh;
+
         & .sdgundaminfoimg {
             margin-left: 0vw;
             margin-top: 0vw;
             position: relative;
 
+        }
+
+        img.aerial {
+            position: absolute;
+            bottom: 0vh;
+            right: -40vw;
+            height: 77vh;
+            z-index: -1;
+            filter: blur(3px);
         }
 
         & img.exia {
