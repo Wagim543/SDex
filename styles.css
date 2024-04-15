@@ -371,8 +371,7 @@ main {
     main {
         & img.exia {
             height: 40vh;
-            width: 95vw;
-            filter: opacity(0.5);
+            filter: opacity(0.3);
         }
 
         img.modalpicture {
@@ -447,7 +446,7 @@ main {
     }
 
     & main {
-        background-position-y: 43vh;
+        background-position-y: 56vh;
 
         h4 {
             font-size: 1.4rem;
@@ -475,8 +474,6 @@ main {
 
         & img.exia {
             position: absolute;
-            height: 70vh;
-            width: 100vw;
             top: 0vw;
             z-index: -1;
             filter: opacity(0.2);
