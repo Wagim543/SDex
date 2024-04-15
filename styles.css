@@ -167,7 +167,7 @@ main {
     .modelh4::after {
         content: " ";
         height: 2px;
-        width: 50vw;
+        width: 45vw;
         background: black;
         display: block;
         position: absolute;
@@ -419,7 +419,9 @@ main {
 }
 
 
-@media screen and (max-width:) {}
+@media screen and (max-width:768px) {
+
+}
 
 /* @media screen and (max-width:1436px) {
     header {
