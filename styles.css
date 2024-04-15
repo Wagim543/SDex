@@ -299,9 +299,11 @@ main {
                 width: 65vw;
                 top: 7vh;
             }
+
             & .logo::after {
                 width: 70vw;
             }
+
             & .heading {
                 margin-top: 7vh;
                 margin-left: 0vw;
@@ -324,14 +326,15 @@ main {
     }
 
     & main {
-
+        background-position-y: 35vh;
+        
         & .sdgundaminfoimg {
             margin-left: 0vw;
             margin-top: 0vw;
             position: relative;
 
         }
-        
+
         & img.exia {
             position: absolute;
             height: 70vh;
@@ -349,6 +352,7 @@ main {
                 font-size: 1.2rem;
             }
         }
+
         & .modals {
             padding: 1vw 1vh;
             display: flex;
@@ -359,6 +363,7 @@ main {
                 height: auto;
             }
         }
+
         & .collect {
             background-color: var(--black);
             width: 55vw;
@@ -367,26 +372,32 @@ main {
             justify-content: center;
             border-radius: 8px;
         }
+
         & .modal-content {
             width: 85vw;
+
             & .modal-body {
                 width: 85vw;
             }
-            
+
         }
-       & p.header1 {
+
+        & p.header1 {
             font-size: 1.5rem;
             font-family: Amuro;
             color: var(--red);
         }
+
         & p.header2 {
             font-size: 1rem;
             font-family: SDDystopianDemo;
             color: var(--darkgrey);
         }
+
         & p.headerp {
             font-size: 1rem;
         }
+
         & img.modalpicture {
             width: 70vw;
             height: 30vh;
