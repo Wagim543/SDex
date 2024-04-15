@@ -414,7 +414,7 @@ main {
     }
 }
 
-@media screen and (max-width:1436px) {
+/* @media screen and (max-width:1436px) {
     header {
         & .container-fluid {
             & .heading {
@@ -608,8 +608,36 @@ main {
     }
 
     main {
+        p.header2 {
+            font-size: 1rem
+        }
+
+        p.header1 {
+            font-size: 1.5rem;
+        }
+
+        p.headerp {
+            font-size: 1.2rem;
+        }
+
         & .modelh4::after {
             width: 34vw;
         }
     }
 }
+
+@media screen and (max-width:575px) {
+    header {
+        & .container-fluid {
+            & .headingimg {}
+
+            & .heading {
+
+
+                & h1 {}
+            }
+        }
+    }
+
+    main {}
+} */
